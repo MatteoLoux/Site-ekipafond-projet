@@ -27,7 +27,7 @@ const questions = [
         ]
     },
     {
-        question: "Quelle technique de cryptographie est souvent utilisée pour garantir l'intégrité des données en ajoutant une empreinte numérique à un message ??",
+        question: "Quelle technique de cryptographie est souvent utilisée pour garantir l'intégrité des données en ajoutant une empreinte numérique à un message ?",
         answers: [
             { text: " AES (Advanced Encryption Standard)", correct: false},
             { text: "SHA-256 (Secure Hash Algorithm 256 bits)", correct: true},

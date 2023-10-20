@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        question: "Quel outil nous permet de nous sécurisé sur internet ?",
+        question: "Quel outil nous permet de nous sécuriser sur internet ?",
         answers: [
             { text: "Un ordinateur puissant", correct: false},
             { text: "Il faut sécuriser avec le cadenas ", correct: false},

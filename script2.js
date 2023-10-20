@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Quel protocol permet de nous reconnaître auprès d'un serveur ?",
+        question: "Quel protocole permet de nous reconnaître auprès d'un serveur ?",
         answers: [
             { text: "Un Os", correct: false},
             { text: "L’adresse IP", correct: true},
