@@ -2,8 +2,8 @@ const questions = [
     {
         question: "Quel protocol permet de nous reconnaître auprès d'un serveur ?",
         answers: [
-            { text: "Un Os", correct: true},
-            { text: "L’adresse IP", correct: false},
+            { text: "Un Os", correct: false},
+            { text: "L’adresse IP", correct: true},
             { text: "“J'avais une réservation au nom de Dupont”", correct: false},
             { text: "Une Backup", correct: false},
         ]
@@ -20,9 +20,9 @@ const questions = [
     {
         question: "Que signifie l’acronyme “RGPD”?",
         answers: [
-            { text: "Règlement général du Pouvoir et de la Défense", correct: true},
+            { text: "Règlement général du Pouvoir et de la Défense", correct: false},
             { text: "Régulation Générale des Pingouins et Dauphins ", correct: false},
-            { text: "Règlement Général de la protection des Données", correct: false},
+            { text: "Règlement Général de la protection des Données", correct: true},
             { text: "Règlement Général du Pouvoir D’achat ", correct: false},
         ]
     },
@@ -38,10 +38,10 @@ const questions = [
     {
         question: "Quel est le terme utilisé pour décrire une technique qui consiste à collecter des informations sensibles en surveillant le trafic réseau, généralement au sein d'un réseau local (LAN) ?",
         answers: [
-            { text: "Sniffing", correct: false},
+            { text: "Sniffing", correct: true},
             { text: "Hacking", correct: false},
             { text: "Spoofing", correct: false},
-            { text: "Brute force", correct: true},
+            { text: "Brute force", correct: false},
         ]
     }
 ];
