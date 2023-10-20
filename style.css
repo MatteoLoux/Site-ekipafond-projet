@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgb(0,0,0,0.6)),url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a h2{
+    margin-left: 50px;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.content{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttons{
+    margin-top: 75px;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+
+.quizz{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.quizz h3{
+    font-size: 30px;
+}
+
+.quizz-button{
+    width: 125px;
+    
+}
+
+
+footer{
+    background-color: rgba(43, 43, 43, 0.219);
+    margin-top: auto;
+}
+
+.footer-content{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-content h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-content h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-content h6{
+    font-family: 'Raleway', sans-serif;
+}

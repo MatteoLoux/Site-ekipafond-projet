@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgb(0,0,0,0.6)),url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: max-content;
+}
+
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar a h1{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a h2{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: rgba(43, 43, 43,0.219);
+    height: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0; right: 0; left: 0;
+}
+
+.footer-content{
+    color: white;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+.footer-content h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    background-color: rgba(43, 43, 43, 0.219);
+    padding-bottom: 30px;
+    height: auto;
+}
+.content h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.sources a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.footer-content h6{
+    font-family: 'Raleway', sans-serif;
+}
