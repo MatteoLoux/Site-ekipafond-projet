@@ -29,7 +29,7 @@ const questions = [
     {
         question: "Que signifie l'acronyme VPN en cybersécurité ?",
         answers: [
-            { text: "Virtual Private Network (Réseau Virutal Privé)", correct: true},
+            { text: "Virtual Private Network (Réseau Virtuel Privé)", correct: true},
             { text: "Very Private Network (Réseau Très Privé)", correct: false},
             { text: "Virtual Public Network (Réseau Virtuel Public)", correct: false},
             { text: "Very Public Network (Réseau Très Public)", correct: false},
