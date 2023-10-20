@@ -1,47 +1,47 @@
 const questions = [
     {
-        question: "A quoi sert l'A2F ?",
+        question: "Quelle est la méthode d'authentification qui utilise une combinaison de quelque chose que vous savez, quelque chose que vous avez et quelque chose que vous êtes ?",
         answers: [
-            { text: "A sécuriser la connexion à un service", correct: true},
-            { text: "A crypter des informations", correct: false},
-            { text: "A avoir des réductions au mcdo", correct: false},
-            { text: "A apporter des précisions sur des données", correct: false},
+            { text: "Authentification Multifactorielle (MFA)", correct: true},
+            { text: "Authentification unique (SSO)", correct: false},
+            { text: "Authentification à deux facteurs", correct: false},
+            { text: "Authentification par carte à puce", correct: false},
         ]
     },
     {
-        question: "Quelles pratiques ne sont pas des Cyberattaques ?",
+        question: " Quel type d’attaque consiste à rediriger le trafic vers un site frauduleux ?",
         answers: [
-            { text: "Brute force", correct: false},
-            { text: "Malware", correct: false},
-            { text: "BlackList", correct: true},
-            { text: "Intrusion", correct: false},
+            { text: "Fishing", correct: false},
+            { text: "Social Engineering", correct: false},
+            { text: "Pharming", correct: true},
+            { text: "Spoofing", correct: false},
         ]
     },
     {
-        question: "Quel mot de passe est le plus sécurisé ?",
+        question: " Quel protocole de chiffrement est généralement utilisé pour sécuriser les connexions Web (HTTPS) ?",
         answers: [
-            { text: "Au moins 10 caractères avec des caractères spéciaux et des chiffres", correct: true},
-            { text: "Ma date de naissance", correct: false},
-            { text: "Une suite de lettres ou de nombres", correct: false},
-            { text: "Le prénom de mon père", correct: false},
+            { text: "TLS/SSL", correct: true},
+            { text: "MD5", correct: false},
+            { text: "DES", correct: false},
+            { text: "RSA", correct: false},
         ]
     },
     {
-        question: "Est-il risqué d’utiliser un Wi-Fi public gratuit ?",
+        question: "Quelle technique de cryptographie est souvent utilisée pour garantir l'intégrité des données en ajoutant une empreinte numérique à un message ??",
         answers: [
-            { text: "Ça dépend du téléphone", correct: false},
-            { text: "Oui!", correct: true},
-            { text: "Pas du tout, sinon on appellerait ça un non-fi", correct: false},
-            { text: "Ça dépend de l’endroit", correct: false},
+            { text: " AES (Advanced Encryption Standard)", correct: false},
+            { text: "SHA-256 (Secure Hash Algorithm 256 bits)", correct: true},
+            { text: "RSA (Rivest-Shamir-Adleman)", correct: false},
+            { text: "HMAC (Hash-based Message Authentication Code)", correct: false},
         ]
     },
     {
-        question: "Quel outil nous permet de nous sécurisé sur internet ?",
+        question: " A quoi servent les clés publique et privée dans le RSA ?",
         answers: [
-            { text: "Un ordinateur puissant", correct: false},
-            { text: "Il faut sécuriser avec le cadenas ", correct: false},
-            { text: "Un URL", correct: false},
-            { text: "Un VPN", correct: true},
+            { text: "Permet d’ouvrir des ports", correct: false},
+            { text: "Permet de contrôler un réseau. ", correct: false},
+            { text: "Permet de shutdown un ordinateur.	", correct: false},
+            { text: "Permet d’assurer la confidentialité et l'authenticité des communications.", correct: true},
         ]
     }
 ];
